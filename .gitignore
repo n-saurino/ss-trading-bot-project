@@ -1,0 +1,78 @@
+# CMake build directory
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Visual Studio Code specific
+.vscode/
+/*.code-workspace
+
+# Compiled source files
+*.o
+*.obj
+*.lo
+*.lai
+*.la
+*.al
+*.libs
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+
+# Directories
+/.idea/
+/build/
+/debug/
+/release/
+/x64/
+/bin/
+/lib/
+/out/
+
+# Windows specific
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.log
+*.vspscc
+*.vssscc
+*.ncb
+*.suo
+*.user
+*.sln.docstates
+*.sln
+*.VC.db
+*.VC.VC.opendb
+*.VC.opendb
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux specific
+*~
+# Temporary files created by editors
+.*.swp
+.*.swo
