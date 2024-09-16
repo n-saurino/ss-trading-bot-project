@@ -29,7 +29,7 @@ include_directories(${Boost_INCLUDE_DIRS})
 
 
 
-add_executable(sma_trading_bot src/main.cpp include/SyncClient.h)
+add_executable(sma_trading_bot src/main.cpp include/SyncClient.h include/Receiver.h)
 
 # Link Boost libraries
 target_link_libraries(sma_trading_bot PRIVATE ${Boost_LIBRARIES})

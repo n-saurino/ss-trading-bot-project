@@ -11,6 +11,7 @@ private:
     /* data */
     std::vector<char> buf_;
     int Start();
+    
 public:
     Client(/* args */);
     ~Client();
